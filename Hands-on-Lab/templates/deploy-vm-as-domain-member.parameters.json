@@ -1,0 +1,39 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "virtualNetworkId": {
+            "value": "VNet1"
+        },
+        "subnetName": {
+            "value": "Subnet-1"
+        },
+        "vnetResourceGroup": {
+            "value": "00-handson"
+        },
+        "virtualMachineName": {
+            "value": "Server-1"
+        },
+        "windowsOSVersion": {
+            "value": "2019-Datacenter"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_DS1_v2"
+        },
+        "domainToJoin": {
+            "value": "cloudworkshop.local"
+        },
+        "domainUsername": {
+            "value": "domainAdmin"
+        },
+        "domainPassword": {
+            "value": "Password.1!!"
+        },
+        "adminUsername": {
+            "value": "AzureUser"
+        },
+        "adminPassword": {
+            "value": "Password.1!!"
+        }
+    }
+}
