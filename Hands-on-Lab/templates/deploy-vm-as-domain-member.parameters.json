@@ -9,7 +9,7 @@
             "value": "Subnet-1"
         },
         "vnetResourceGroup": {
-            "value": "00-handson"
+            "value": "00-cloudworkshop"
         },
         "virtualMachineName": {
             "value": "Server-1"
